@@ -11,3 +11,4 @@ My cybersecurity learning journey, start
 -learned the difference between public and private IP addresses
 -learned the basic purpose of subneting
 -learned basic Linux terminal commands: cd .., mkdir test-myfolder, touch myfile.txt, cat myfile.txt
+kjkhhhk
