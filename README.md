@@ -21,7 +21,7 @@ Linux commands
   ls,
   cat myfile.txt,
   cd ..,
-  pwd,
+  pwd
    Key Takeaways
   - Practiced creating files and directories
   - Learned to navigated between directories
