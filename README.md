@@ -1,5 +1,5 @@
 # Cybersecurity-Journey
-My cybersecurity learning journey, start
+My cybersecurity learning journey, starting from networking fundamentals and Linux basics 
 ## Day 1-2
 - Learned the OSI model (7 layers)
 - Started learning TCP/IP Model
