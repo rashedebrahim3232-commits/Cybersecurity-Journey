@@ -13,15 +13,15 @@ Networking Foundamentals
 - learned the basic purpose of subnetting
 Linux commands
 - Practiced the following commands in the Linux terminal:
-  pwd
-  mkdir test-folder
-  is
-  cd test-folder
-  touch myfile.txt
-  is
-  cat myfile.txt
-  cd ..
-  pwd
+  pwd,
+  mkdir test-folder,
+  is,
+  cd test-folder,
+  touch myfile.txt,
+  is,
+  cat myfile.txt,
+  cd ..,
+  pwd,
    Key Takeaways
   - Practiced creating files and directories
   - Learned to navigated between directories
