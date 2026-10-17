@@ -7,8 +7,24 @@ My cybersecurity learning journey, start
 - learned basic Linux terminal commands: whoami, pwd, ls, cd
 - Discovered Linux is case-sensitive
 # Day 3
-- started learning about Ip addersses
-- learned the difference between public and private IP addresses
-- learned the basic purpose of subneting
-- learned basic Linux terminal commands: cd .., mkdir test-myfolder, touch myfile.txt, cat myfile.txt
-
+Networking Foundamentals
+- Stated learning about IP addresses
+- Learned the difference between public and private IP addresses
+- learned the basic purpose of subnetting
+Linux commands
+-practiced the following commands in the Linux terminal:
+  pwd
+  mkdir test-folder
+  is
+  cd test-folder
+  touch myfile.txt
+  is
+  cat myfile.txt
+  cd ..
+  pwd
+  Key Takeaways
+  - Practiced creating files and directories
+  - Learned to navigated between directories
+  - Practiced listing files and displaying file contents
+  - Started learning IP Addressing and subnetting 
+  
