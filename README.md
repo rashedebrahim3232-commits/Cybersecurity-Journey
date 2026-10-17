@@ -12,7 +12,7 @@ Networking Foundamentals
 - Learned the difference between public and private IP addresses
 - learned the basic purpose of subnetting
 Linux commands
--practiced the following commands in the Linux terminal:
+- Practiced the following commands in the Linux terminal:
   pwd
   mkdir test-folder
   is
@@ -22,7 +22,7 @@ Linux commands
   cat myfile.txt
   cd ..
   pwd
-  Key Takeaways
+   Key Takeaways
   - Practiced creating files and directories
   - Learned to navigated between directories
   - Practiced listing files and displaying file contents
