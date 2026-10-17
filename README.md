@@ -15,10 +15,10 @@ Linux commands
 - Practiced the following commands in the Linux terminal:
   pwd,
   mkdir test-folder,
-  is,
+  ls,
   cd test-folder,
   touch myfile.txt,
-  is,
+  ls,
   cat myfile.txt,
   cd ..,
   pwd,
