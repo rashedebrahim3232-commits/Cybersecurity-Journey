@@ -1,4 +1,4 @@
-# Cybersecurity-Journey
+ Cybersecurity-Journey
 My cybersecurity learning journey, starting from networking fundamentals and Linux basics 
 ## Day 1-2
 - Learned the OSI model (7 layers)
@@ -22,6 +22,7 @@ Linux commands
   cat myfile.txt,
   cd ..,
   pwd
+
    Key Takeaways
   - Practiced creating files and directories
   - Learned to navigated between directories
