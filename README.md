@@ -10,8 +10,8 @@ My cybersecurity learning journey, starting from networking fundamentals and Lin
 Networking Foundamentals
 - Stated learning about IP addresses.
 - Learned the difference between public and private IP addresses.
-- learned the basic purpose of subnetting.
-Linux commands
+- learned the basic purpose of subnetting
+ Linux commands
 - Practiced the following commands in the Linux terminal:
   pwd,
   mkdir test-folder,
@@ -32,7 +32,7 @@ Linux commands
    Networking Theory
   - Learned the difference between TCP and UDP.
   - Learned what network ports are and why they are used.
-    Linux Pracical
+     Linux Pracical
    - Practiced the following commands in Ubuntu Terminal:
     echo ''hello'' > myfile.txt
     cat myfile.txt
