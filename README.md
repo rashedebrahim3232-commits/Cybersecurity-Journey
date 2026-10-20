@@ -1,16 +1,16 @@
  Cybersecurity-Journey
 My cybersecurity learning journey, starting from networking fundamentals and Linux basics 
 ## Day 1-2
-- Learned the OSI model (7 layers)
-- Started learning TCP/IP Model
-- Set up Ubuntu in Virtualbox
+- Learned the OSI model (7 layers).
+- Started learning TCP/IP Model.
+- Set up Ubuntu in Virtualbox.
 - learned basic Linux terminal commands: whoami, pwd, ls, cd
-- Discovered Linux is case-sensitive
+- Discovered Linux is case-sensitive.
 # Day 3
 Networking Foundamentals
-- Stated learning about IP addresses
-- Learned the difference between public and private IP addresses
-- learned the basic purpose of subnetting
+- Stated learning about IP addresses.
+- Learned the difference between public and private IP addresses.
+- learned the basic purpose of subnetting.
 Linux commands
 - Practiced the following commands in the Linux terminal:
   pwd,
@@ -24,8 +24,20 @@ Linux commands
   pwd
 
    Key Takeaways
-  - Practiced creating files and directories
-  - Learned to navigated between directories
-  - Practiced listing files and displaying file contents
-  - Started learning IP Addressing and subnetting 
+  - Practiced creating files and directories.
+  - Learned to navigated between directories.
+  - Practiced listing files and displaying file contents.
+  - Started learning IP Addressing and subnetting .
+  # Day 4 - Linux File Operations and Networking Basics
+   Networking Theory
+  - Learned the difference between TCP and UDP.
+  - Learned what network ports are and why they are used.
+    Linux Pracical
+   - Practiced the following commands in Ubuntu Terminal:
+    echo ''hello'' > myfile.txt
+    cat myfile.txt
+    cp myfile.txt copy.txt
+    mv copy.txt renamed.txt
+    rm renamed.txt
+    ls -l
   
