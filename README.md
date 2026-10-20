@@ -11,7 +11,7 @@ Networking Foundamentals
 - Stated learning about IP addresses.
 - Learned the difference between public and private IP addresses.
 - learned the basic purpose of subnetting
- Linux commands
+# Linux commands
 - Practiced the following commands in the Linux terminal:
   pwd,
   mkdir test-folder,
@@ -22,8 +22,7 @@ Networking Foundamentals
   cat myfile.txt,
   cd ..,
   pwd
-
-   Key Takeaways
+  # Key Takeaways
   - Practiced creating files and directories.
   - Learned to navigated between directories.
   - Practiced listing files and displaying file contents.
@@ -32,7 +31,7 @@ Networking Foundamentals
    Networking Theory
   - Learned the difference between TCP and UDP.
   - Learned what network ports are and why they are used.
-     Linux Pracical
+  # Linux Practical
    - Practiced the following commands in Ubuntu Terminal:
     echo ''hello'' > myfile.txt
     cat myfile.txt
