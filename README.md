@@ -44,11 +44,11 @@ Networking Foundamentals
    - Reviewed ARP and the relationship between IP and MAC addresses.
    - learned ARP Request (Broadcast) and ARP Reply (Unicast).
    - Understood the role of the Default Gateway when communicating outside the local network.
-    # Linux Practical.
+    # Linux commands.
    - Practiced the following commands in the Linux terminal:
-     IP neigh,
-     IP route,
-     clear,
-     history,
-     # Kay Takeway.
+    - IP neigh - viewed neighbor information.
+    - IP route - viewed routing information and the default gateway. 
+    - clear - cleared the terminal screen.
+    - history - viewed previously used commands.
+     # Key Takeway.
    - ARP helps a device find the MAC address associated with an IP Address on the local network.
