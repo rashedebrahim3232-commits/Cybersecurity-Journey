@@ -46,9 +46,22 @@ Networking Foundamentals
    - Understood the role of the Default Gateway when communicating outside the local network.
     # Linux commands.
    - Practiced the following commands in the Linux terminal:
-    - IP neigh - viewed neighbor information.
-    - IP route - viewed routing information and the default gateway. 
+    - ip neigh - viewed neighbor information.
+    - ip route - viewed routing information and the default gateway. 
     - clear - cleared the terminal screen.
     - history - viewed previously used commands.
      # Key Takeway.
    - ARP helps a device find the MAC address associated with an IP Address on the local network.
+    # Day 6 - DHCP Practical Lab
+    ## commands Used
+    - Ip addr
+    - Ip route
+    # Results
+    - IPv4 Address: 10.0.2.15/24
+    - Default Gateway: 10.0.2.2
+    - Subnet Mask: 255.255.255.0
+    ## What I Learned
+     - DHCP automatically assings network configuration.
+     - ip addr - displays network interfaces and IP addresses.
+     - ip route - displays the routing table.
+     - The Default Gateway forwards traffic to other networks.
