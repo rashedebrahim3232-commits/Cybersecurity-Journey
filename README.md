@@ -33,11 +33,11 @@ Networking Foundamentals
   - Learned what network ports are and why they are used.
   # Linux Practical
   - Practiced the following commands in the Linux terminal:
-     echo ''hello'' > myfile.txt
-    cat myfile.txt
-    cp myfile.txt copy.txt
-    mv copy.txt renamed.txt
-    rm renamed.txt
+    echo ''hello'' > myfile.txt,
+    cat myfile.txt,
+    cp myfile.txt copy.txt,
+    mv copy.txt renamed.txt,
+    rm renamed.txt,
     ls -l
    # Day 5 - Networking & Linux Practice.
     Networking.
@@ -46,7 +46,7 @@ Networking Foundamentals
    - Understood the role of the Default Gateway when communicating outside the local network.
     # Linux commands.
    - Practiced the following commands in the Linux terminal:
-    - ip neigh - viewed neighbor information.
+    -ip neigh - viewed neighbor information.
     - ip route - viewed routing information and the default gateway. 
     - clear - cleared the terminal screen.
     - history - viewed previously used commands.
