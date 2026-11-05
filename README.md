@@ -4,7 +4,7 @@ My cybersecurity learning journey, starting from networking fundamentals and Lin
 - Learned the OSI model (7 layers).
 - Started learning TCP/IP Model.
 - Set up Ubuntu in Virtualbox.
-- learned basic Linux terminal commands: whoami, pwd, ls, cd
+- learned basic Linux terminal commands: `whoami`, `pwd`, `ls`, `cd` 
 - Discovered Linux is case-sensitive.
 # Day 3
 Networking Foundamentals
@@ -13,15 +13,15 @@ Networking Foundamentals
 - learned the basic purpose of subnetting
 # Linux commands
 - Practiced the following commands in the Linux terminal:
-  pwd,
-  mkdir test-folder,
-  ls,
-  cd test-folder,
-  touch myfile.txt,
-  ls,
-  cat myfile.txt,
-  cd ..,
-  pwd
+  `pwd`,
+  `mkdir test-folder`,
+  `ls`,
+  `cd test-folder`,
+  `touch myfile.txt`,
+  `ls`,
+  `cat myfile.txt`,
+  `cd ..`,
+ ` pwd`
   # Key Takeaways
   - Practiced creating files and directories.
   - Learned to navigated between directories.
@@ -33,12 +33,12 @@ Networking Foundamentals
   - Learned what network ports are and why they are used.
   # Linux Practical
   - Practiced the following commands in the Linux terminal:
-    echo ''hello'' > myfile.txt,
-    cat myfile.txt,
-    cp myfile.txt copy.txt,
-    mv copy.txt renamed.txt,
-    rm renamed.txt,
-    ls -l
+    `echo ''hello'' > myfile.txt`,
+    `cat myfile.txt`,
+    `cp myfile.txt copy.txt`,
+   `mv copy.txt renamed.txt`,
+   `rm renamed.txt`,
+    `ls -l`
    # Day 5 - Networking & Linux Practice.
     Networking.
    - Reviewed ARP and the relationship between IP and MAC addresses.
@@ -46,22 +46,22 @@ Networking Foundamentals
    - Understood the role of the Default Gateway when communicating outside the local network.
     # Linux commands.
    - Practiced the following commands in the Linux terminal:
-    -ip neigh - viewed neighbor information.
-    - ip route - viewed routing information and the default gateway. 
-    - clear - cleared the terminal screen.
-    - history - viewed previously used commands.
+    -`ip neigh` - viewed neighbor information.
+    - `ip route` - viewed routing information and the default gateway. 
+    - `clear` - cleared the terminal screen.
+    - `history` - viewed previously used commands.
      # Key Takeway.
    - ARP helps a device find the MAC address associated with an IP Address on the local network.
     # Day 6 - DHCP Practical Lab
     ## commands Used
-    - Ip addr
-    - Ip route
+    - `Ip addr`
+    - `Ip route`
     # Results
     - IPv4 Address: 10.0.2.15/24
     - Default Gateway: 10.0.2.2
     - Subnet Mask: 255.255.255.0
     ## What I Learned
      - DHCP automatically assings network configuration.
-     - ip addr - displays network interfaces and IP addresses.
-     - ip route - displays the routing table.
+     - `ip addr` - displays network interfaces and IP addresses.
+     - `ip route` - displays the routing table.
      - The Default Gateway forwards traffic to other networks.
