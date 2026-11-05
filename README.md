@@ -50,7 +50,7 @@ Networking Foundamentals
     - `ip route` - viewed routing information and the default gateway. 
     - `clear` - cleared the terminal screen.
     - `history` - viewed previously used commands.
-     # Key Takeway.
+     # Key Takeways.
    - ARP helps a device find the MAC address associated with an IP Address on the local network.
     # Day 6 - DHCP Practical Lab
     ## commands Used
@@ -61,7 +61,7 @@ Networking Foundamentals
     - Default Gateway: 10.0.2.2
     - Subnet Mask: 255.255.255.0
     ## What I Learned
-     - DHCP automatically assings network configuration.
+     - DHCP automatically assigns network configuration.
      - `ip addr` - displays network interfaces and IP addresses.
      - `ip route` - displays the routing table.
      - The Default Gateway forwards traffic to other networks.
