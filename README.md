@@ -85,7 +85,7 @@ Networking Foundamentals
      - #53:DNS server port.
      - Non-authoritative answer: The response came from a resolver that is not authoritative for the queried domain.
      - DNS answers, including IP addresses, may change over time.
-      # Key concepts learned
+      ## Key concepts learned
      - A= IPv4
      - AAAA=IPv6
      - MX=Mail servers
