@@ -68,10 +68,10 @@ Networking Foundamentals
      # Day 7 - DNS Practical Basics
      # DNS Lookup
      - Used `nslookup` to query DNS records and resolve domain names.
-      `nslookup google.com`
-      # DNS Records Practiced
-      - A Record-IPv4 Address, `nslookup -type=A google.com`
-      - Resolves a domain name to an IPv4 address,
-       AAAA Record-IPv6 Address, `nslookup -type=AAAA google.com`
+     `nslookup google.com`
+     # DNS Records Practiced
+     - A Record-IPv4 Address, `nslookup -type=A google.com`
+     - Resolves a domain name to an IPv4 address,
+      AAAA Record-IPv6 Address, `nslookup -type=AAAA google.com`
         
        
