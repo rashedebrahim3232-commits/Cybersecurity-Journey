@@ -70,13 +70,13 @@ Networking Foundamentals
     - Used `nslookup` to query DNS records and resolve domain names, 
     `nslookup google.com`
     # DNS Records Practiced
-    - A Record-IPv4 Address:`nslookup -type=A google.com`,
+    - A Record - IPv4 Address: `nslookup -type=A google.com`,
       Resolves a domain name to an IPv4 address.
-    - AAAA Record-IPv6 Address: `nslookup -type=AAAA google.com`,
+    - AAAA Record - IPv6 Address: `nslookup -type=AAAA google.com`,
       Resolves a domain name to an IPv6 address.
-    - MX Record-Mail Echange:`nslookup -type=MX google.com`,
+    - MX Record - Mail Exchange: `nslookup -type=MX google.com`,
       Identifies the mail servers responsible for receiving emails for a domain. Lower MX priority values are preferred.
-    - NS-Name Server:`nslookup -type=NS google.com`,
+    - NS - Name Server: `nslookup -type=NS google.com`,
       Identifies the name servers responsible for DNS information for a domain.
      ## Understanding DNS Output
      - `127.0.0.53`: Ubuntu's local DNS stub resolver.
