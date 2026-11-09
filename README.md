@@ -99,7 +99,7 @@ Networking Foundamentals
     - DNS answers, including IP addresses, may change over time.
     - NOERROR: The DNS query was processed successfully.
     - NXDOMAIN: The queried domain name does not exist according to the DNS response. 
-    ## Key concepts learned
+     ## Key concepts learned
     - A = IPv4.
     - AAAA = IPv6.
     - MX = Mail servers.
@@ -110,4 +110,29 @@ Networking Foundamentals
     - SOA = DNS zone administrative information.
     - DNS translates domain names into information computers can use.
     - `nslookup`, `dig`, and `host` are DNS lookup tools.
-       
+     ## Day 8-NAT and PAT Practical Basics
+     # Network Configuration
+    - Used `ip addr` to inspect network interfaces and IP configuration.
+    - Used `ip route` to identify the default gateway and routing information.
+     # Network information
+    - Network interface: `enp0s3`
+    - Private IP address: `10.0.2.15`
+    - Subnet:`/24`
+    - MAC Address: `08.00.27.18.ce.a5`
+    - Default Gateway: `10.0.2.2`
+    - Network Address: `10.0.2.0/24`
+    - IP Assignment: Dynamic.
+     # Public IP Lookup
+    - Used curl -4 ifconfig.com to retrieve the externally visible IPv4 address.
+    - Public IP Address: `156.207.125.45`
+     # NAT and PAT Concepts
+    - NAT (Network address Translation): Translates IP addresses between private and public networks.
+    - PAT(Port address Translation): Uses port translation to distinguish multiple connections to their internet devices.
+    - NAT Translation Table: Maps translated connections to their internet devices.
+    - Default Gateway: Forwards traffic destined for external network.
+     # Key concepts learned
+    - Private IP = Internal network address.
+    - Public IP = Externally visible IP address.
+    - NAT = IP address translation.
+    - PAT = IP and port translation.
+    - PAT allows multiple devices to share one public IP address.
