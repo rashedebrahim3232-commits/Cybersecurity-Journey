@@ -92,22 +92,22 @@ Networking Foundamentals
     - host : Used to perform simple DNS stub resolver.
     - `host google.com`
      ## Understanding DNS Output
-     - `127.0.0.53`: Ubuntu's local DNS stub resolver.
-     - `#53`:DNS server port.
-     - Non-authoritative answer: The response came from a resolver that is not authoritative for the queried domain.
-     - TTL: Determines how long a DNS response can remain cached.
-     - DNS answers, including IP addresses, may change over time.
-     - NOERROR: The DNS query was processed successfully.
-     - NXDOMAIN: The queried domain name does not exist according to the DNS response. 
+    - `127.0.0.53`: Ubuntu's local DNS stub resolver.
+    - `#53`:DNS server port.
+    - Non-authoritative answer: The response came from a resolver that is not authoritative for the queried domain.
+    - TTL: Determines how long a DNS response can remain cached.
+    - DNS answers, including IP addresses, may change over time.
+    - NOERROR: The DNS query was processed successfully.
+    - NXDOMAIN: The queried domain name does not exist according to the DNS response. 
     ## Key concepts learned
-     - A = IPv4.
-     - AAAA = IPv6.
-     - MX = Mail servers.
-     - CNAME = Alias.
-     - TXT = Text information.
-     - PTR = Reverse DNS lookup.
-     - NS = Name servers.
-     - SOA = DNS zone administrative information.
-     - DNS translates domain names into information computers can use.
-     - `nslookup`, `dig`, and `host` are DNS lookup tools.
+    - A = IPv4.
+    - AAAA = IPv6.
+    - MX = Mail servers.
+    - CNAME = Alias.
+    - TXT = Text information.
+    - PTR = Reverse DNS lookup.
+    - NS = Name servers.
+    - SOA = DNS zone administrative information.
+    - DNS translates domain names into information computers can use.
+    - `nslookup`, `dig`, and `host` are DNS lookup tools.
        
