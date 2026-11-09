@@ -80,7 +80,17 @@ Networking Foundamentals
     - PRT Record - Pointer record: `nslookup -type=PRT 8.8.8.8`, Resolves an IPv4 address to a domain name.
     - NS - Name Server: `nslookup -type=NS google.com`,
       Identifies the name servers responsible for DNS information for a domain.
-    - SOA Record - Start of authority: `nslookup -type= SOA google.com`, Provides administrative information about a DNS zone , including Serial, Refresh, Retry, Expire, and Minimum. 
+    - SOA Record - Start of authority: `nslookup -type= SOA google.com`, Provides administrative information about a DNS zone , including Serial, Refresh, Retry, Expire, and Minimum.
+     ## DNS Tools Practiced
+    - nslookup : Used to query DNS records and analyze DNS response.
+    - dig : Used to perform detailed DNS queries and analyze response sections.
+    - `dig google.com`
+    - `dig google.com MX`
+    - `dig google.com NS`
+    - `dig google.com NS +noall +answer`
+    - `dig -x 8.8.8.8`
+    - host : Used to perform simple DNS stub resolver.
+    - `host google.com`
      ## Understanding DNS Output
      - `127.0.0.53`: Ubuntu's local DNS stub resolver.
      - `#53`:DNS server port.
