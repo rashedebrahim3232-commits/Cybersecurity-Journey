@@ -68,25 +68,36 @@ Networking Foundamentals
     # Day 7 - DNS Practical Basics
     # DNS Lookup
     - Used `nslookup` to query DNS records and resolve domain names, 
-    `nslookup google.com`
+    `nslookup google.com`.
     # DNS Records Practiced
     - A Record - IPv4 Address: `nslookup -type=A google.com`,
       Resolves a domain name to an IPv4 address.
-    - AAAA Record - IPv6 Address: `nslookup -type=AAAA google.com`,
+    - AAAA Record - IPv6 Address: `nslookup -type=AAAA google.com`, 
       Resolves a domain name to an IPv6 address.
+    - CNAME Record - Canonical Name: `nslookup -type=CNAME www.github.com`
     - MX Record - Mail Exchange: `nslookup -type=MX google.com`,
       Identifies the mail servers responsible for receiving emails for a domain. Lower MX priority values are preferred.
+    - PRT Record - Pointer record: `nslookup -type=PRT 8.8.8.8`, Resolves an IPv4 address to a domain name.
     - NS - Name Server: `nslookup -type=NS google.com`,
       Identifies the name servers responsible for DNS information for a domain.
+    - SOA Record - Start of authority: `nslookup -type= SOA google.com`, Provides administrative information about a DNS zone , including Serial, Refresh, Retry, Expire, and Minimum. 
      ## Understanding DNS Output
      - `127.0.0.53`: Ubuntu's local DNS stub resolver.
      - `#53`:DNS server port.
      - Non-authoritative answer: The response came from a resolver that is not authoritative for the queried domain.
+     - TTL: Determines how long a DNS response can remain cached.
      - DNS answers, including IP addresses, may change over time.
+     - NOERROR: The DNS query was processed successfully.
+     - NXDOMAIN: The queried domain name does not exist according to the DNS response. 
     ## Key concepts learned
-     - A = IPv4
-     - AAAA = IPv6
-     - MX = Mail servers
-     - NS = Name servers
-     - DNS translates domain names into information computers can use. 
+     - A = IPv4.
+     - AAAA = IPv6.
+     - MX = Mail servers.
+     - CNAME = Alias.
+     - TXT = Text information.
+     - PTR = Reverse DNS lookup.
+     - NS = Name servers.
+     - SOA = DNS zone administrative information.
+     - DNS translates domain names into information computers can use.
+     - `nslookup`, `dig`, and `host` are DNS lookup tools.
        
