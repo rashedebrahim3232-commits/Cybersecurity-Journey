@@ -67,28 +67,26 @@ Networking Foundamentals
     - The Default Gateway forwards traffic to other networks.
     # Day 7 - DNS Practical Basics
     # DNS Lookup
-    - Used `nslookup` to query DNS records and resolve domain names.
+    - Used `nslookup` to query DNS records and resolve domain names, 
     `nslookup google.com`
     # DNS Records Practiced
-    - A Record-IPv4 Address, `nslookup -type=A google.com`
-    - Resolves a domain name to an IPv4 address,
-      AAAA Record-IPv6 Address, `nslookup -type=AAAA google.com`,
+    - A Record-IPv4 Address:`nslookup -type=A google.com`,
+      Resolves a domain name to an IPv4 address.
+    - AAAA Record-IPv6 Address: `nslookup -type=AAAA google.com`,
       Resolves a domain name to an IPv6 address.
-    - MX Record-Mail Echange 
-      `nslookup -type=MX google.com`,
+    - MX Record-Mail Echange:`nslookup -type=MX google.com`,
       Identifies the mail servers responsible for receiving emails for a domain. Lower MX priority values are preferred.
-    - NS-Name Server
-      `nslookup -type=NS google.com`
+    - NS-Name Server:`nslookup -type=NS google.com`,
       Identifies the name servers responsible for DNS information for a domain.
-     # Understanding DNS Output
-     - 127.0.0.53: Ubuntu's local DNS stub resolver.
-     - #53:DNS server port.
+     ## Understanding DNS Output
+     - `127.0.0.53`: Ubuntu's local DNS stub resolver.
+     - `#53`:DNS server port.
      - Non-authoritative answer: The response came from a resolver that is not authoritative for the queried domain.
      - DNS answers, including IP addresses, may change over time.
-     # Key concepts learned
-     - A= IPv4
-     - AAAA=IPv6
-     - MX=Mail servers
-     - NS =Name servers
+    ## Key concepts learned
+     - A = IPv4
+     - AAAA = IPv6
+     - MX = Mail servers
+     - NS = Name servers
      - DNS translates domain names into information computers can use. 
        
