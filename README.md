@@ -131,6 +131,19 @@ Networking Foundamentals
     - NAT Translation Table: Maps translated connections to their internet devices.
     - Default Gateway: Forwards traffic destined for external network.
      # Key concepts learned
+     ## Day 9 - Routing & Switching Basics
+     # Theory covered
+    - Hub vs Switch vs Router
+    - OSI Layer 2 and Layer 3
+    - Routing Table
+    - Static Routing and Dynamic Routing
+    - Default Route and Default Gateway
+    - Next Hop
+    - Connected Routes
+    - Longest Prefix Match
+     # Practical Commands
+     #1. Display Routing Table
+   
     - Private IP = Internal network address.
     - Public IP = Externally visible IP address.
     - NAT = IP address translation.
