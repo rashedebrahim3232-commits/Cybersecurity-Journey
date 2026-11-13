@@ -148,6 +148,7 @@ Networking Foundamentals
     - Connected Routes
     - Longest Prefix Match
      # Practical Commands
-     1. Display Routing Table
+     1. Display Routing Table.
+      Results:
    
    
