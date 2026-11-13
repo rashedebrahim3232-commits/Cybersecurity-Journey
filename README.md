@@ -147,7 +147,7 @@ Networking Foundamentals
     - Connected Routes.
     - Longest Prefix Match.
      # Practical Commands
-     1. Display Routing Table.
+     # Display Routing Table.
     - `ip route`
     - Results:
     1. IP Address: `10.0.2.15`
