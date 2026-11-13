@@ -136,22 +136,47 @@ Networking Foundamentals
     - NAT = IP address translation.
     - PAT = IP and port translation.
     - PAT allows multiple devices to share one public IP address.
-
      ## Day 9 - Routing & Switching Basics
      # Theory covered
-    - Hub vs Switch vs Router
-    - OSI Layer 2 and Layer 3
-    - Routing Table
-    - Static Routing and Dynamic Routing
-    - Default Route and Default Gateway
-    - Next Hop
-    - Connected Routes
-    - Longest Prefix Match
+    - Hub vs Switch vs Router.
+    - OSI Layer 2 and Layer 3.
+    - Routing Table.
+    - Static Routing and Dynamic Routing.
+    - Default Route and Default Gateway.
+    - Next Hop.
+    - Connected Routes.
+    - Longest Prefix Match.
      # Practical Commands
      1. Display Routing Table.
     - `ip route`
      # Results:
-    - IP Address: 10.0.2.15
-    - Default Gateway: 10.0.2.2
-    - Network Interface:           
+    - IP Address: `10.0.2.15`
+    - Default Gateway: `10.0.2.2`
+    - Network Interface: `enp0s3`
+    - Connected Network: `10.0.2.0/24`
+     2. Check Route to an External Destination
+    - `ip route get 8.8.8.8`
+    - Verified that external traffic uses the Default Gateway.
+     3. Check Route to a Local Destination
+    - `ip route get 10.0.2.3`
+    - Verified that local traffic uses the directly connected route without specifying a gateway.   
+     4. Display Neighbor table
+    - `ip neigh`
+    - Inspected neighboring devices and their MAC addresses.
+    - Observed the Gateway entry in `STALE` state.
+      5. UDP Traceroute
+    - `traceroute 8.8.8.8`
+    - First Hop: 10.0.2.2.
+    - Subsequent hops did not respond(***).
+      6. ICMP Traceroute
+    - `traceroute -I -m 5 -q 1 -w 2 8.8.8.8`.
+    - Destination `8.8.8.8` appeared in the first reported hop.
+    - response time: approximately `57.848 ms`.
+     ## What I Learned
+    - How to inspect the Linux Routing Table.
+    - How Linux selects routes for local and external destination.
+    - The difference between Connected Routes and Default Routes.
+    - How the Default Gateway is used.
+    - How to inspect the neighbor Table.
+    - How Traceroute works using UDP and ICMP. 
    
