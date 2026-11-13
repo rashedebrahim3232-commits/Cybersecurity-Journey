@@ -150,5 +150,7 @@ Networking Foundamentals
      # Practical Commands
      1. Display Routing Table.
       Results:
-   
+    - IP Address: 10.0.2.15
+    - Default Gateway: 10.0.2.2
+    - Network Interface:           
    
