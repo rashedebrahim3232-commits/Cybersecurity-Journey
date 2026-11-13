@@ -149,8 +149,8 @@ Networking Foundamentals
     - Longest Prefix Match
      # Practical Commands
      1. Display Routing Table.
-      *`ip route`
-     #Results:
+     `ip route`
+     # Results:
     - IP Address: 10.0.2.15
     - Default Gateway: 10.0.2.2
     - Network Interface:           
