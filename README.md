@@ -131,6 +131,12 @@ Networking Foundamentals
     - NAT Translation Table: Maps translated connections to their internet devices.
     - Default Gateway: Forwards traffic destined for external network.
      # Key concepts learned
+    - Private IP = Internal network address.
+    - Public IP = Externally visible IP address.
+    - NAT = IP address translation.
+    - PAT = IP and port translation.
+    - PAT allows multiple devices to share one public IP address.
+
      ## Day 9 - Routing & Switching Basics
      # Theory covered
     - Hub vs Switch vs Router
@@ -142,10 +148,6 @@ Networking Foundamentals
     - Connected Routes
     - Longest Prefix Match
      # Practical Commands
-     #1. Display Routing Table
+     1. Display Routing Table
    
-    - Private IP = Internal network address.
-    - Public IP = Externally visible IP address.
-    - NAT = IP address translation.
-    - PAT = IP and port translation.
-    - PAT allows multiple devices to share one public IP address.
+   
