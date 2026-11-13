@@ -154,7 +154,7 @@ Networking Foundamentals
     2. Default Gateway: `10.0.2.2`
     3. Network Interface: `enp0s3`
     4. Connected Network: `10.0.2.0/24`
-      # Check Route to an External Destination
+     # Check Route to an External Destination
     - `ip route get 8.8.8.8`
     - Verified that external traffic uses the Default Gateway.
       # Check Route to a Local Destination
