@@ -22,16 +22,16 @@ Networking Foundamentals
   `cat myfile.txt`,
   `cd ..`,
  ` pwd`
-  # Key Takeaways
-  - Practiced creating files and directories.
-  - Learned to navigated between directories.
-  - Practiced listing files and displaying file contents.
-  - Started learning IP Addressing and subnetting .
-  # Day 4 - Linux File Operations and Networking Basics.
-   Networking Theory.
-  - Learned the difference between TCP and UDP.
-  - Learned what network ports are and why they are used.
-  # Linux Practical
+# Key Takeaways
+ - Practiced creating files and directories.
+ - Learned to navigated between directories.
+ - Practiced listing files and displaying file contents.
+ - Started learning IP Addressing and subnetting .
+# Day 4 - Linux File Operations and Networking Basics.
+  Networking Theory.
+ - Learned the difference between TCP and UDP.
+ - Learned what network ports are and why they are used.
+# Linux Practical
   - Practiced the following commands in the Linux terminal:
     `echo ''hello'' > myfile.txt`,
     `cat myfile.txt`,
