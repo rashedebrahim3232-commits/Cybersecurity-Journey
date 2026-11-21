@@ -211,7 +211,7 @@ Networking Foundamentals
  # Common Troubleshooting Scenarios 
   - Gateway unreachable: Investigate local connectivity, interface configuration, and ARP.
   - External IP unreachable: Investigate routing, router connectivity, and upstream connectivity.
-  - External IP unreachable but domain resolution fails: Investigate DNS.
+  - External IP reachable but domain resolution fails: Investigate DNS.
   - Important: A failed ping does not always mean the destination is unreachable. ICMP traffic may be blocked or filtered.
  # Key Takeaways 
   - troubleshooting systematically, one stage at a time.
