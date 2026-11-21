@@ -27,7 +27,7 @@ Networking Foundamentals
  - Learned to navigated between directories.
  - Practiced listing files and displaying file contents.
  - Started learning IP Addressing and subnetting .
-# Day 4 - Linux File Operations and Networking Basics.
+# Day 4 - Linux File Operations and Networking
   Networking Theory.
  - Learned the difference between TCP and UDP.
  - Learned what network ports are and why they are used.
@@ -39,7 +39,7 @@ Networking Foundamentals
   `mv copy.txt renamed.txt`,
   `rm renamed.txt`,
   `ls -l`
-# Day 5 - Networking & Linux Practice.
+# Day 5 - Networking & Linux Practice
   Networking.
   - Reviewed ARP and the relationship between IP and MAC addresses.
   - learned ARP Request (Broadcast) and ARP Reply (Unicast).
@@ -65,7 +65,7 @@ Networking Foundamentals
   - `ip addr` - displays network interfaces and IP addresses.
   - `ip route` - displays the routing table.
   - The Default Gateway forwards traffic to other networks.
- # Day 7 - DNS Practical Basics
+ # Day 7 - DNS Practical
  ## DNS Lookup
   - Used `nslookup` to query DNS records and resolve domain names, 
   `nslookup google.com`.
@@ -110,7 +110,7 @@ Networking Foundamentals
   - SOA = DNS zone administrative information.
   - DNS translates domain names into information computers can use.
   - `nslookup`, `dig`, and `host` are DNS lookup tools.
- # Day 8-NAT and PAT Practical Basics
+ # Day 8-NAT and PAT Practical 
  ## Network Configuration
   - Used `ip addr` to inspect network interfaces and IP configuration.
   - Used `ip route` to identify the default gateway and routing information.
@@ -136,7 +136,7 @@ Networking Foundamentals
   - NAT = IP address translation.
   - PAT = IP and port translation.
   - PAT allows multiple devices to share one public IP address.
- # Day 9 - Routing & Switching Basics
+ # Day 9 - Routing & Switching
  ## Theory covered
   - Hub vs Switch vs Router.
   - OSI Layer 2 and Layer 3.
