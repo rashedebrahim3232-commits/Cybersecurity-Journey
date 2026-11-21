@@ -179,7 +179,7 @@ Networking Foundamentals
   - How the Default Gateway is used.
   - How to inspect the neighbor Table.
   - How Traceroute works using UDP and ICMP. 
- ## Day - Network troubleshooting 
+ ## Day 10 - Network troubleshooting 
  # Introduction
   - Network Troubleshooting is the process of identifying, diagnosing, and resolving network connectivity problems.
   - The goal is to locate the source of a network problem systematically instead of changing setting randomly.
