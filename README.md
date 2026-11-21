@@ -179,4 +179,44 @@ Networking Foundamentals
   - How the Default Gateway is used.
   - How to inspect the neighbor Table.
   - How Traceroute works using UDP and ICMP. 
-   
+ ## Day - Network troubleshooting 
+ # Introduction
+  - Network Troubleshooting is the process of identifying, diagnosing, and resolving network connectivity problems.
+  - The goal is to locate the source of a network problem systematically instead of changing setting randomly.
+ # Systematic Troubleshooting Approach
+  - Check the network step by step:
+  1. Local Network: Check network interface status and IP configuration.
+  2. Default Gateway: Test connectivity to the local router.
+  3. External Connectivity to an external IP address
+  4. DNS Resolution: Check whether domain names resolve to IP addresses.
+ # Linux Commands
+  1. Check network interfaces and IP addresses
+  - `ip addr`
+  - Displays network interfaces and their IP addresses.
+  2. Check the routing table
+  - `ip route`
+  - Displays routing information and the default gateway.
+  3. Test connectivity to the gateway
+  - `ping -c 4 10.0.2.2`
+  - Tests connectivity to the default gateway.
+  4. Test external IP connectivity
+  - `ping -c 4 8.8.8.8`
+  - Test connectivity to an external IP address.
+  5. Test domain connectivity
+  - `ping -c 4 google.com`
+  - Tests connectivity using a domain name and involves DNS resolution.
+  6. Trace the network path
+  - `traceroute google.com`
+  - Displays the route toward the destination and the responding hops.
+ # Common Troubleshooting Scenarios 
+  - Gateway unreachable: Investigate local connectivity, interface configuration, and ARP.
+  - External IP unreachable: Investigate routing, router connectivity, and upstream connectivity.
+  - External IP unreachable but domain resolution fails: Investigate DNS.
+  - Important: A failed ping does not always mean the destination is unreachable. ICMP traffic may be blocked or filtered.
+ # Key Takeaways 
+  - troubleshooting systematically, one stage at a time.
+  - Verify local connectivity before investigation external connectivity.
+  - Use `ping` to test connectivity.
+  - Use `traceroute` to examine responding hops along a path.
+  - DNS resolves domain names into IP addresses.
+  - Status: Theory and practical exercises completed. 
