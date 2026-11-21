@@ -1,6 +1,6 @@
  Cybersecurity-Journey
 My cybersecurity learning journey, starting from networking fundamentals and Linux basics 
-## Day 1-2
+# Day 1-2
 - Learned the OSI model (7 layers).
 - Started learning TCP/IP Model.
 - Set up Ubuntu in Virtualbox.
@@ -11,7 +11,7 @@ Networking Foundamentals
 - Stated learning about IP addresses.
 - Learned the difference between public and private IP addresses.
 - learned the basic purpose of subnetting
-# Linux commands
+## Linux commands
 - Practiced the following commands in the Linux terminal:
   `pwd`,
   `mkdir test-folder`,
