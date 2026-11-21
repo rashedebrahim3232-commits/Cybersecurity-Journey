@@ -7,7 +7,7 @@ My cybersecurity learning journey, starting from networking fundamentals and Lin
 - learned basic Linux terminal commands: `whoami`, `pwd`, `ls`, `cd` 
 - Discovered Linux is case-sensitive.
 # Day 3
-Networking Foundamentals
+## Networking Foundamentals
 - Stated learning about IP addresses.
 - Learned the difference between public and private IP addresses.
 - learned the basic purpose of subnetting
@@ -28,7 +28,7 @@ Networking Foundamentals
  - Practiced listing files and displaying file contents.
  - Started learning IP Addressing and subnetting .
 # Day 4 - Linux File Operations and Networking
-  Networking Theory.
+## Networking Theory.
  - Learned the difference between TCP and UDP.
  - Learned what network ports are and why they are used.
 ## Linux Practical
@@ -40,7 +40,7 @@ Networking Foundamentals
   `rm renamed.txt`,
   `ls -l`
 # Day 5 - Networking & Linux Practice
-  Networking.
+## Networking.
   - Reviewed ARP and the relationship between IP and MAC addresses.
   - learned ARP Request (Broadcast) and ARP Reply (Unicast).
   - Understood the role of the Default Gateway when communicating outside the local network.
