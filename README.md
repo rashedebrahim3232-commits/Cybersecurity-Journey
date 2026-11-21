@@ -22,7 +22,7 @@ Networking Foundamentals
   `cat myfile.txt`,
   `cd ..`,
  ` pwd`
-# Key Takeaways
+## Key Takeaways
  - Practiced creating files and directories.
  - Learned to navigated between directories.
  - Practiced listing files and displaying file contents.
@@ -31,7 +31,7 @@ Networking Foundamentals
   Networking Theory.
  - Learned the difference between TCP and UDP.
  - Learned what network ports are and why they are used.
-# Linux Practical
+## Linux Practical
  - Practiced the following commands in the Linux terminal:
   `echo ''hello'' > myfile.txt`,
   `cat myfile.txt`,
@@ -44,32 +44,32 @@ Networking Foundamentals
   - Reviewed ARP and the relationship between IP and MAC addresses.
   - learned ARP Request (Broadcast) and ARP Reply (Unicast).
   - Understood the role of the Default Gateway when communicating outside the local network.
- # Linux commands.
+ ## Linux commands.
   - Practiced the following commands in the Linux terminal:
   -`ip neigh` - viewed neighbor information.
   - `ip route` - viewed routing information and the default gateway. 
   - `clear` - cleared the terminal screen.
   - `history` - viewed previously used commands.
- # Key Takeways.
+ ## Key Takeways.
   - ARP helps a device find the MAC address associated with an IP Address on the local network.
  # Day 6 - DHCP Practical Lab
- # commands Used
+ ## commands Used
   - `Ip addr`
   - `Ip route`
- # Results
+ ## Results
   - IPv4 Address: 10.0.2.15/24
   - Default Gateway: 10.0.2.2
   - Subnet Mask: 255.255.255.0
- # What I Learned
+ ## What I Learned
   - DHCP automatically assigns network configuration.
   - `ip addr` - displays network interfaces and IP addresses.
   - `ip route` - displays the routing table.
   - The Default Gateway forwards traffic to other networks.
  # Day 7 - DNS Practical Basics
- # DNS Lookup
+ ## DNS Lookup
   - Used `nslookup` to query DNS records and resolve domain names, 
   `nslookup google.com`.
- # DNS Records Practiced
+ ## DNS Records Practiced
   - A Record - IPv4 Address: `nslookup -type=A google.com`,
     Resolves a domain name to an IPv4 address.
   - AAAA Record - IPv6 Address: `nslookup -type=AAAA google.com`,
@@ -110,11 +110,11 @@ Networking Foundamentals
   - SOA = DNS zone administrative information.
   - DNS translates domain names into information computers can use.
   - `nslookup`, `dig`, and `host` are DNS lookup tools.
- ## Day 8-NAT and PAT Practical Basics
- # Network Configuration
+ # Day 8-NAT and PAT Practical Basics
+ ## Network Configuration
   - Used `ip addr` to inspect network interfaces and IP configuration.
   - Used `ip route` to identify the default gateway and routing information.
- # Network information
+ ## Network information
   - Network interface: `enp0s3`
   - Private IP address: `10.0.2.15`
   - Subnet:`/24`
@@ -122,7 +122,7 @@ Networking Foundamentals
   - Default Gateway: `10.0.2.2`
   - Network Address: `10.0.2.0/24`
   - IP Assignment: Dynamic. 
- # Public IP Lookup
+ ## Public IP Lookup
   - Used curl -4 ifconfig.com to retrieve the externally visible IPv4 address.
   - Public IP Address: `156.207.125.45`
  # NAT and PAT Concepts
