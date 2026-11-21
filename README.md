@@ -125,19 +125,19 @@ Networking Foundamentals
  ## Public IP Lookup
   - Used curl -4 ifconfig.com to retrieve the externally visible IPv4 address.
   - Public IP Address: `156.207.125.45`
- # NAT and PAT Concepts
+ ## NAT and PAT Concepts
   - NAT (Network address Translation): Translates IP addresses between private and public networks.
   - PAT(Port address Translation): Uses port translation to distinguish multiple connections to their internet devices.
   - NAT Translation Table: Maps translated connections to their internet devices.
   - Default Gateway: Forwards traffic destined for external network.
- # Key concepts learned
+ ## Key concepts learned
   - Private IP = Internal network address.
   - Public IP = Externally visible IP address.
   - NAT = IP address translation.
   - PAT = IP and port translation.
   - PAT allows multiple devices to share one public IP address.
- ## Day 9 - Routing & Switching Basics
- # Theory covered
+ # Day 9 - Routing & Switching Basics
+ ## Theory covered
   - Hub vs Switch vs Router.
   - OSI Layer 2 and Layer 3.
   - Routing Table.
@@ -146,29 +146,29 @@ Networking Foundamentals
   - Next Hop.
   - Connected Routes.
   - Longest Prefix Match.
- # Practical Commands
- # Display Routing Table.
+ ## Practical Commands
+ ### Display Routing Table.
   - `ip route`
   - Results:
   1. IP Address: `10.0.2.15`
   2. Default Gateway: `10.0.2.2`
   3. Network Interface: `enp0s3`
   4. Connected Network: `10.0.2.0/24`
- # Check Route to an External Destination
+ ## Check Route to an External Destination
   - `ip route get 8.8.8.8`
   - Verified that external traffic uses the Default Gateway.
- # Check Route to a Local Destination
+ ## Check Route to a Local Destination
   - `ip route get 10.0.2.3`
   - Verified that local traffic uses the directly connected route without specifying a gateway.   
- # Display Neighbor table
+ ## Display Neighbor table
   - `ip neigh`
   - Inspected neighboring devices and their MAC addresses.
   - Observed the Gateway entry in `STALE` state.
- # UDP Traceroute
+ ## UDP Traceroute
   - `traceroute 8.8.8.8`
   - First Hop: 10.0.2.2.
   - Subsequent hops did not respond(***).
- # ICMP Traceroute
+ ## ICMP Traceroute
   - `traceroute -I -m 5 -q 1 -w 2 8.8.8.8`.
   - Destination `8.8.8.8` appeared in the first reported hop.
   - response time: approximately `57.848 ms`.
@@ -179,17 +179,17 @@ Networking Foundamentals
   - How the Default Gateway is used.
   - How to inspect the neighbor Table.
   - How Traceroute works using UDP and ICMP. 
- ## Day 10 - Network troubleshooting 
- # Introduction
+ # Day 10 - Network troubleshooting 
+ ## Introduction
   - Network Troubleshooting is the process of identifying, diagnosing, and resolving network connectivity problems.
   - The goal is to locate the source of a network problem systematically instead of changing setting randomly.
- # Systematic Troubleshooting Approach
+ ## Systematic Troubleshooting Approach
   - Check the network step by step:
   1. Local Network: Check network interface status and IP configuration.
   2. Default Gateway: Test connectivity to the local router.
   3. External Connectivity to an external IP address
   4. DNS Resolution: Check whether domain names resolve to IP addresses.
- # Linux Commands
+ ## Linux Commands
   1. Check network interfaces and IP addresses
   - `ip addr`
   - Displays network interfaces and their IP addresses.
@@ -208,12 +208,12 @@ Networking Foundamentals
   6. Trace the network path
   - `traceroute google.com`
   - Displays the route toward the destination and the responding hops.
- # Common Troubleshooting Scenarios 
+ ## Common Troubleshooting Scenarios 
   - Gateway unreachable: Investigate local connectivity, interface configuration, and ARP.
   - External IP unreachable: Investigate routing, router connectivity, and upstream connectivity.
   - External IP reachable but domain resolution fails: Investigate DNS.
   - Important: A failed ping does not always mean the destination is unreachable. ICMP traffic may be blocked or filtered.
- # Key Takeaways 
+ ## Key Takeaways 
   - troubleshooting systematically, one stage at a time.
   - Verify local connectivity before investigation external connectivity.
   - Use `ping` to test connectivity.
